@@ -1,0 +1,20 @@
+.ic-SearchInput {
+  display: flex;
+  background-color: rgb(239, 239, 239);
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+
+.ic-SearchInput-input {
+  margin-left: 4px;
+  border: none;
+  background: none;
+  width: 90%;
+  height: auto;
+  outline: none;
+}
