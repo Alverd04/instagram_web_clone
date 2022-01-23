@@ -1,0 +1,77 @@
+.ic-userInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ic-userInfo-user {
+  display: flex;
+}
+
+.ic-userInfo-avatar {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(211, 211, 211);
+  object-fit: contain;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+}
+
+.ic-userInfo-avatar-small {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgb(211, 211, 211);
+  object-fit: contain;
+}
+
+.ic-userInfo-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.ic-userInfo-avatar-small img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.ic-userInfo-info {
+  margin-left: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ic-userInfo-info-userName {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.ic-userInfo-info-name {
+  font-size: 14px;
+  color: grey;
+}
+
+.ic-userInfo button {
+  margin-left: 16px;
+  background: none;
+  color: rgb(0, 174, 255);
+  border: none;
+  font-size: 14px;
+}

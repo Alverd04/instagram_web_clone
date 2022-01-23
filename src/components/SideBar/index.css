@@ -1,0 +1,30 @@
+.ic-sideBar {
+  width: 100%;
+  height: 100%;
+  margin: 16px 0px 16px;
+}
+
+.ic-sideBar-content {
+  width: 100%;
+}
+
+.ic-sideBar-suggestions-header {
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+  margin: 32px 0 16px;
+}
+
+.ic-sideBar-suggestions-header button {
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+
+.ic-sideBar-sugesstionsUser {
+  margin: 16px 0px;
+}
