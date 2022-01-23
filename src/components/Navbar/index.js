@@ -3,7 +3,7 @@ import "./index.css";
 import { MdHomeFilled } from "react-icons/md";
 import { FiSend } from "react-icons/fi";
 import { RiAddBoxLine } from "react-icons/ri";
-import { ImCompass } from "react-icons/im";
+import { TiCompass } from "react-icons/ti";
 import { AiOutlineHeart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -34,12 +34,18 @@ export default function Navbar() {
             <RiAddBoxLine size={22} />
           </Link>
           <Link to="/discover">
-            <ImCompass size={22} />
+            <TiCompass size={27} />
           </Link>
           <Link to="/likes">
             {" "}
             <AiOutlineHeart size={22} />
           </Link>
+          <div className={`${BASE_CLASS}-avatar`}>
+            <img
+              src="https://cdnnmundo1.img.sputniknews.com/img/07e5/09/13/1116212032_0:0:1300:975_1920x0_80_0_0_a523efb8da64e8c4064a6df5702a4a88.png"
+              alt="avatar"
+            />
+          </div>
         </div>
       </div>
     </div>
