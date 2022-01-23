@@ -5,9 +5,10 @@ import { useState } from "react";
 const BASE_CLASS = "ic-SearchInput";
 
 export default function SearchInput({
-  value = "",
   onChange = () => {},
   onClear = () => {},
+  placeholder = "",
+  value = "",
 }) {
   const [innerValue, setInnerValue] = useState(value);
 
@@ -25,6 +26,7 @@ export default function SearchInput({
     <div className={BASE_CLASS}>
       {innerValue.length === 0 && <BsSearch />}
       <input
+        placeholder={placeholder}
         value={innerValue}
         onChange={onChangeHandler}
         className={`${BASE_CLASS}-input`}
