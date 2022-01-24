@@ -20,7 +20,17 @@
   margin-top: 52px;
   height: 100%;
   width: 70%;
-  background-color: white;
+  min-height: 88vh;
+}
+
+.ic-homePage-storiesContainer {
+  height: 118px;
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .ic-homePage-sideBarContainer {

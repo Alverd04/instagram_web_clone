@@ -1,0 +1,30 @@
+.ic-storyCarrousel {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 3px;
+  padding: 16px 0px 16px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.ic-storyCarrousel-arrowRight {
+  position: absolute;
+  right: 10px;
+  top: auto;
+}
+
+.ic-storyCarrousel-arrowLeft {
+  position: absolute;
+  left: 10px;
+  top: auto;
+}
+
+.ic-storyCarrousel-story {
+  margin: 0px 8px;
+}
