@@ -19,8 +19,8 @@
 }
 
 .ic-storyIcon-image img {
-  width: 54px;
-  height: 54px;
+  height: 54px !important;
+  width: 54px !important;
   border-radius: 50%;
   border: 3px solid white;
   object-fit: cover;
