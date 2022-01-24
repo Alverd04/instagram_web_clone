@@ -1,8 +1,9 @@
-import "./index.css";
-import SharedPage from "../../components/SharedPage";
-import SideBar from "../../components/SideBar";
-import StoryCarrousel from "../../components/StoryCarrousel";
-const BASE_CLASS = "ic-homePage";
+import './index.css'
+import SharedPage from '../../components/SharedPage'
+import SideBar from '../../components/SideBar'
+import StoryCarrousel from '../../components/StoryCarrousel'
+import FeedPost from '../../components/FeedPost'
+const BASE_CLASS = 'ic-homePage'
 
 export default function HomePage() {
   return (
@@ -12,7 +13,11 @@ export default function HomePage() {
           <div className={`${BASE_CLASS}-feed`}>
             <div className={`${BASE_CLASS}-storiesContainer`}>
               <StoryCarrousel />
-              <div className={`${BASE_CLASS}-feedPosts`}></div>
+            </div>
+            <div className={`${BASE_CLASS}-feedPosts`}>
+              <FeedPost />
+              <FeedPost />
+              <FeedPost />
             </div>
           </div>
           <div className={`${BASE_CLASS}-sideBarContainer`}>
@@ -21,5 +26,5 @@ export default function HomePage() {
         </div>
       </div>
     </SharedPage>
-  );
+  )
 }

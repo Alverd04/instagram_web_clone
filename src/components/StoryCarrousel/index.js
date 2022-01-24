@@ -35,7 +35,7 @@ export default function StoryCarrousel() {
       closeFriends: true,
     },
     {
-      user: 'Charlie Brown',
+      user: 'Charlie',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,

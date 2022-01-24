@@ -57,6 +57,14 @@
   justify-content: space-evenly;
 }
 
+.ic-userInfo-info-oneText {
+  margin-left: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .ic-userInfo-info-userName {
   font-size: 14px;
   font-weight: 600;
