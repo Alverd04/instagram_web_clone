@@ -59,3 +59,18 @@
   background-color: rgb(211, 211, 211);
   object-fit: contain;
 }
+
+@media (max-width: 700px) {
+  .ic-Navbar-searchBar {
+    display: none;
+  }
+
+  .ic-Navbar-logo {
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  .ic-Navbar-options {
+    width: 50%;
+  }
+}

@@ -50,3 +50,13 @@
   margin: 70px 0px 16px 32px;
   display: flex;
 }
+
+@media (max-width: 975px) {
+  .ic-homePage-feed {
+    width: 100%;
+  }
+  
+  .ic-homePage-sideBarContainer {
+    display: none;
+  }
+}
