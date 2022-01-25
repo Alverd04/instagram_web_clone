@@ -15,7 +15,16 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  overflow-x: hidden;
+  overflow-x: scroll;
+}
+
+.ic-storyCarrousel-content::-webkit-scrollbar {
+  display: none;
+}
+
+.ic-storyCarrousel-content {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .ic-storyCarrousel-arrowRight {
