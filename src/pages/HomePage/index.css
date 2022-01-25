@@ -53,10 +53,15 @@
 
 @media (max-width: 975px) {
   .ic-homePage-feed {
+    margin-top: 8px;
     width: 100%;
   }
   
   .ic-homePage-sideBarContainer {
     display: none;
+  }
+
+  .ic-homePage-storiesContainer {
+    margin-bottom: 8px;
   }
 }
