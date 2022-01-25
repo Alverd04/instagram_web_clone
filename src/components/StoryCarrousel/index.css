@@ -15,6 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  scroll-behavior: smooth;
   overflow-x: scroll;
 }
 
@@ -31,12 +32,24 @@
   position: absolute;
   right: 10px;
   top: auto;
+  opacity: 0;
+  transition: 0.1s ease-in;
+}
+
+.ic-storyCarrousel-arrowRight:hover {
+  opacity: 1;
 }
 
 .ic-storyCarrousel-arrowLeft {
   position: absolute;
   left: 10px;
   top: auto;
+  opacity: 0;
+  transition: 0.1s ease-in;
+}
+
+.ic-storyCarrousel-arrowLeft:hover {
+  opacity: 1;
 }
 
 .ic-storyCarrousel-story {
