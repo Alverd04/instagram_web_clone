@@ -1,8 +1,8 @@
 .ic-storyCarrousel {
   height: 100%;
-  width: 100%;
+  width: 98%;
   background-color: #fff;
-  border: 1px solid rgb(216, 216, 216);
+  border: 1px solid #d8d8d8;
   border-radius: 3px;
   padding: 16px 0px 16px 8px;
   display: flex;
