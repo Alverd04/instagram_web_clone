@@ -1,4 +1,4 @@
-.ic-storyCarrousel {
+.ic-storyIconCarrousel {
   height: 100%;
   width: 98%;
   background-color: #fff;
@@ -11,7 +11,11 @@
   position: relative;
 }
 
-.ic-storyCarrousel-content {
+.ic-storyIconCarrousel a {
+  text-decoration: none;
+}
+
+.ic-storyIconCarrousel-content {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -19,16 +23,16 @@
   overflow-x: scroll;
 }
 
-.ic-storyCarrousel-content::-webkit-scrollbar {
+.ic-storyIconCarrousel-content::-webkit-scrollbar {
   display: none;
 }
 
-.ic-storyCarrousel-content {
+.ic-storyIconCarrousel-content {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-.ic-storyCarrousel-arrowRight {
+.ic-storyIconCarrousel-arrowRight {
   position: absolute;
   right: 10px;
   top: auto;
@@ -36,11 +40,11 @@
   transition: 0.1s ease-in;
 }
 
-.ic-storyCarrousel-arrowRight:hover {
+.ic-storyIconCarrousel-arrowRight:hover {
   opacity: 1;
 }
 
-.ic-storyCarrousel-arrowLeft {
+.ic-storyIconCarrousel-arrowLeft {
   position: absolute;
   left: 10px;
   top: auto;
@@ -48,10 +52,10 @@
   transition: 0.1s ease-in;
 }
 
-.ic-storyCarrousel-arrowLeft:hover {
+.ic-storyIconCarrousel-arrowLeft:hover {
   opacity: 1;
 }
 
-.ic-storyCarrousel-story {
+.ic-storyIconCarrousel-story {
   margin: 0px 8px;
 }

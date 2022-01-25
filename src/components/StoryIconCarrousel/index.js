@@ -5,9 +5,10 @@ import {
 } from 'react-icons/io'
 import StoryIcon from '../StoryIcon'
 import { useRef } from 'react'
-const BASE_CLASS = 'ic-storyCarrousel'
+import { Link } from 'react-router-dom'
+const BASE_CLASS = 'ic-storyIconCarrousel'
 
-export default function StoryCarrousel() {
+export default function StoryIconCarrousel() {
   const content = useRef()
   const handleClick = ({ scrollDirection }) => {
     console.log(scrollDirection)
@@ -17,109 +18,92 @@ export default function StoryCarrousel() {
 
   const stories = [
     {
+      id: 1,
       user: 'Mr.Pool',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
+      id: 2,
       user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
+      id: 3,
       user: 'The rock',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
+      id: 4,
       user: 'Charlie',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'senpai',
-      imagePath:
-        'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
-      closeFriends: true,
-    },
-    {
-      user: 'animation',
-      imagePath:
-        'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
-      closeFriends: true,
-    },
-    {
-      user: 'cinemaa',
-      imagePath:
-        'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
-      closeFriends: true,
-    },
-    {
-      user: 'animepool',
-      imagePath:
-        'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
-      closeFriends: true,
-    },
-    {
+      id: 5,
       user: 'Mr.Pool',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
     },
     {
-      user: 'Mr.Pool',
-      imagePath:
-        'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
-      closeFriends: true,
-    },
-    {
-      user: 'Mr.Pool',
+      id: 6,
+      user: 'Rihanna',
       imagePath:
         'https://www.cinemascomics.com/wp-content/uploads/2020/11/deadpool-problemas-marvel-studios.jpg',
       closeFriends: true,
@@ -142,9 +126,11 @@ export default function StoryCarrousel() {
       </div>
       <div ref={content} className={`${BASE_CLASS}-content`}>
         {stories.map((story, index) => (
-          <div key={index} className={`${BASE_CLASS}-story`}>
-            <StoryIcon story={story} />
-          </div>
+          <Link to={`/stories/${story.id}`} key={index}>
+            <div className={`${BASE_CLASS}-story`}>
+              <StoryIcon story={story} />
+            </div>
+          </Link>
         ))}
       </div>
     </div>
