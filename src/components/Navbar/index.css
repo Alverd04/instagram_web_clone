@@ -74,3 +74,9 @@
     width: 50%;
   }
 }
+
+@media (max-width: 1024px) {
+  .ic-Navbar-logo {
+    padding-left: 10px;
+  }
+}
