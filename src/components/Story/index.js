@@ -15,9 +15,11 @@ export default function Story({ slides = [] }) {
   useEffect(() => {
     console.log(currentSlide)
     if (currentSlide < slides.length - 1) {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         setCurrentSlide(currentSlide + 1)
       }, 9000)
+
+      return () => clearTimeout(timer)
     }
   }, [currentSlide])
 

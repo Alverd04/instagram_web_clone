@@ -6,7 +6,7 @@ export const MOCK_STORIES_DATA = [
   },
   {
     id: 2,
-    img: 'https://phantom-marca.unidadeditorial.es/68ba8f449459d825febd9bda3ee302b8/crop/0x37/1199x709/resize/1320/f/jpg/assets/multimedia/imagenes/2021/10/27/16353448747570.jpg',
+    img: 'https://i.pinimg.com/originals/3e/41/07/3e4107aeba1a3b89378e357e8af987e6.jpg',
     viewed: false,
   },
   {
