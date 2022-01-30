@@ -21,7 +21,7 @@ export default function Story({ slides = [] }) {
 
       return () => clearTimeout(timer)
     }
-  }, [currentSlide])
+  }, [currentSlide, slides.length])
 
   return (
     <div className={BASE_CLASS}>
