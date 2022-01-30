@@ -7,14 +7,14 @@ const BASE_CLASS = 'ic-storyIcon'
 export default function StoryIcon({ story = {} }) {
   const [viewed, setViewed] = useState(false)
   const { user, imagePath, closeFriends } = story
-  const borderColor = closeFriends ? 'green' : 'red'
+
+  const isBestFriendClass = () => {
+    return closeFriends ? `${BASE_CLASS}-image-bf` : `${BASE_CLASS}-image`
+  }
 
   return (
     <div className={`${BASE_CLASS}`}>
-      <div
-        style={{ border: `3px solid ${borderColor}` }}
-        className={`${BASE_CLASS}-image`}
-      >
+      <div className={isBestFriendClass()}>
         <img src={imagePath} alt='' />
       </div>
       <span className={`${BASE_CLASS}-label`}>{user}</span>

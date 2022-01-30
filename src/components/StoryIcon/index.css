@@ -16,14 +16,41 @@
   justify-content: center;
   object-fit: contain;
   width: 58px;
+  padding: 3px;
+  background: linear-gradient(
+    162deg,
+    rgba(255, 8, 195, 1) 0%,
+    rgba(255, 214, 0, 1) 100%
+  );
+}
+
+.ic-storyIcon-image-bf {
+  align-items: center;
+  background-color: rgb(211, 211, 211);
+  border-radius: 50%;
+  display: flex;
+  height: 58px;
+  justify-content: center;
+  object-fit: contain;
+  width: 58px;
+  padding: 2px;
+  background: #82c765;
 }
 
 .ic-storyIcon-image img {
   border-radius: 50%;
+  height: 54px;
   border: 3px solid white;
-  height: 54px !important;
   object-fit: cover;
-  width: 54px !important;
+  width: 54px;
+}
+
+.ic-storyIcon-image-bf img {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 54px;
+  object-fit: cover;
+  width: 54px;
 }
 
 .ic-storyIcon-label {
