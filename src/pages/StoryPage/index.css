@@ -8,3 +8,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.ic-storyPage-closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 16px;
+}
