@@ -7,7 +7,6 @@ import { FiPlay } from 'react-icons/fi'
 import { GoUnmute, GoMute } from 'react-icons/go'
 import { BsThreeDots } from 'react-icons/bs'
 import Avatar from '../Avatar'
-import SearchInput from '../SearchInput'
 const BASE_CLASS = 'ic-story'
 
 export default function Story({
