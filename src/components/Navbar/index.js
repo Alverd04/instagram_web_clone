@@ -32,7 +32,6 @@ export default function Navbar() {
   }
 
   const currentPath = window.location.pathname
-  console.log(currentPath)
   return (
     <div className={BASE_CLASS}>
       <div className={`${BASE_CLASS}-content`}>

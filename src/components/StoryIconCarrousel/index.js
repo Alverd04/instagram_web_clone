@@ -11,7 +11,6 @@ const BASE_CLASS = 'ic-storyIconCarrousel'
 export default function StoryIconCarrousel() {
   const content = useRef()
   const handleClick = ({ scrollDirection }) => {
-    console.log(scrollDirection)
     if (scrollDirection === 'left') content.current.scrollLeft += 70 * 9
     if (scrollDirection === 'right') content.current.scrollLeft -= 70 * 9
   }

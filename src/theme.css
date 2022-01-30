@@ -6,3 +6,11 @@
 html {
   font-family: 'Helvetica';
 }
+
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+}

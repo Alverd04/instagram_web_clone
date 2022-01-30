@@ -1,0 +1,48 @@
+@import './storyPaging/index.css';
+
+.ic-story {
+  background-color: black;
+  border-radius: 8px;
+  height: 645.531px;
+  position: relative;
+  transform-origin: left center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 363.111px;
+}
+
+.ic-story .ic-story-header {
+  height: 40px;
+  position: absolute;
+  top: 0;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic-story-image {
+  height: 645.531px;
+  width: 363.111px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.ic-story-prevSlide {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+}
+
+.ic-story-nextSlide {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+}

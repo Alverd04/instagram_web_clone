@@ -1,7 +1,7 @@
 import './index.css'
 import SharedPage from '../../components/SharedPage'
 import SideBar from '../../components/SideBar'
-import StoryCarrousel from '../../components/StoryCarrousel'
+import StoryCarrousel from '../../components/StoryIconCarrousel'
 import FeedPost from '../../components/FeedPost'
 const BASE_CLASS = 'ic-homePage'
 
