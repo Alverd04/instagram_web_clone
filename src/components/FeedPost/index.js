@@ -9,25 +9,27 @@ import { VscSmiley } from 'react-icons/vsc'
 
 const BASE_CLASS = 'ic-feedPost'
 
-export default function FeedPost() {
+export default function FeedPost({
+  imageUrl,
+  user,
+  userImagePath,
+  imageCaption,
+}) {
   return (
     <div className={BASE_CLASS}>
       <div className={`${BASE_CLASS}-header`}>
         <div className={`${BASE_CLASS}-userInfo`}>
           <UserInfo
             iconSize='small'
-            imagePath='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Ryan_Reynolds_by_Gage_Skidmore_3.jpg/1200px-Ryan_Reynolds_by_Gage_Skidmore_3.jpg'
+            imagePath={userImagePath}
             oneText
-            userName='vancityreynolds'
+            userName={user}
           />
         </div>
         <BiDotsHorizontalRounded size={20} />
       </div>
       <div className={`${BASE_CLASS}-imageContainer`}>
-        <img
-          src='https://images3.alphacoders.com/678/thumb-1920-678085.jpg'
-          alt=''
-        />
+        <img src={imageUrl} alt='' />
       </div>
       <div className={`${BASE_CLASS}-footer`}>
         <div className={`${BASE_CLASS}-options`}>
@@ -45,7 +47,7 @@ export default function FeedPost() {
         </div>
         <div className={`${BASE_CLASS}-comments`}>
           <span>
-            <b>vancityreynolds</b> Snu snu
+            <b>{user}</b> {imageCaption}
           </span>
           <span className={`${BASE_CLASS}-comments-viewComments`}>
             view 3.512 comments
