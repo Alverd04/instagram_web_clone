@@ -1,0 +1,20 @@
+.ic-avatar {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ic-avatar-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.ic-avatar-circle-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
