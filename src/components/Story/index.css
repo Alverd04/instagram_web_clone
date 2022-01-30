@@ -1,63 +1,63 @@
 @import './storyPaging/index.css';
 
 .ic-story {
+  align-items: center;
   background-color: black;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
   height: 645.531px;
   position: relative;
   transform-origin: left center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 363.111px;
 }
 
 .ic-story-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   height: 40px;
+  justify-content: center;
   position: absolute;
   top: 10px;
   width: 95%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .ic-story-image {
-  height: 100%;
-  width: 100%;
   background-color: black;
   border-radius: 8px;
+  height: 100%;
+  width: 100%;
 }
 
 .ic-story-prevSlide {
+  background: none;
   height: 100%;
-  width: 50%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  background: none;
+  width: 50%;
 }
 
 .ic-story-nextSlide {
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
   background: none;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
 }
 
 .ic-story-prevStory {
-  position: absolute;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  top: 50%;
-  left: -30px;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  left: -30px;
   padding: 5px;
+  position: absolute;
+  top: 50%;
 }
 
 .ic-story-prevStory:hover {
@@ -65,15 +65,15 @@
 }
 
 .ic-story-nextStory {
-  position: absolute;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  top: 50%;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
   padding: 5px 5px 5px 5px;
+  position: absolute;
   right: -30px;
+  top: 50%;
 }
 
 .ic-story-nextStory:hover {
@@ -81,16 +81,16 @@
 }
 
 .ic-story-header-info {
-  width: 100%;
-  margin-top: 16px;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
+  margin-top: 16px;
+  width: 100%;
 }
 
 .ic-story-header-userInfo {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: flex-start;
 }
 
@@ -101,16 +101,16 @@
 }
 
 .ic-story-header-userInfo-time {
-  font-size: 15px;
   color: white;
+  font-size: 15px;
   font-weight: 200;
   line-height: 18px;
   margin-left: 8px;
 }
 
 .ic-story-header-controls {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   width: 20%;
 }

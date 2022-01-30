@@ -1,9 +1,9 @@
 .ic-userInfo {
-  width: 100%;
-  height: 100%;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 100%;
   justify-content: space-between;
+  width: 100%;
 }
 
 .ic-userInfo-user {
@@ -11,75 +11,75 @@
 }
 
 .ic-userInfo-avatar {
-  width: 50px;
-  height: 50px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 50%;
   background-color: rgb(211, 211, 211);
-  object-fit: contain;
+  border-radius: 50%;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  object-fit: contain;
+  width: 50px;
 }
 
 .ic-userInfo-avatar-small {
-  width: 32px;
-  height: 32px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 50%;
   background-color: rgb(211, 211, 211);
+  border-radius: 50%;
+  display: flex;
+  height: 32px;
+  justify-content: center;
   object-fit: contain;
+  width: 32px;
 }
 
 .ic-userInfo-avatar img {
-  width: 100%;
-  height: 100%;
   border-radius: 50%;
   border: 3px solid white;
+  height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .ic-userInfo-avatar-small img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   border-radius: 50%;
   border: 1px solid rgba(128, 128, 128, 0.452);
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .ic-userInfo-info {
-  margin-left: 16px;
-  display: flex;
   align-items: flex-start;
+  display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 16px;
 }
 
 .ic-userInfo-info-oneText {
-  margin-left: 16px;
-  display: flex;
   align-items: flex-start;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 16px;
 }
 
 .ic-userInfo-info-userName {
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-weight: 600;
-  color: rgb(0, 0, 0);
 }
 
 .ic-userInfo-info-name {
-  font-size: 12px;
   color: grey;
+  font-size: 12px;
 }
 
 .ic-userInfo button {
-  margin-left: 16px;
   background: none;
-  color: rgb(0, 174, 255);
   border: none;
+  color: rgb(0, 174, 255);
   font-size: 12px;
+  margin-left: 16px;
 }

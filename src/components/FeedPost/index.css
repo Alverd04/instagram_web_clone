@@ -1,31 +1,31 @@
 .ic-feedPost {
+  background-color: white;
+  border: 1px solid rgb(216, 216, 216);
   display: flex;
   flex-direction: column;
-  padding: 14px 14px 14px 16px;
   height: 879px;
-  position: relative;
   margin-bottom: 16px;
-  border: 1px solid rgb(216, 216, 216);
-  background-color: white;
+  padding: 14px 14px 14px 16px;
+  position: relative;
 }
 
 .ic-feedPost-header {
-  width: 100%;
-  height: 5%;
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 5%;
   justify-content: space-between;
+  width: 100%;
 }
 
 .ic-feedPost-imageContainer {
-  width: 100%;
   height: 75%;
+  width: 100%;
 }
 
 .ic-feedPost-imageContainer img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .ic-feedPost-footer {
@@ -34,18 +34,18 @@
 }
 
 .ic-feedPost-options {
-  display: flex;
   align-items: center;
+  display: flex;
+  height: 30%;
   justify-content: space-between;
   width: 100%;
-  height: 30%;
 }
 
 .ic-feedPost-options-left {
-  width: 20%;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
+  width: 20%;
 }
 
 .ic-feedPost-likes {
@@ -53,10 +53,10 @@
 }
 
 .ic-feedPost-comments {
-  margin-top: 8px;
   display: flex;
   flex-direction: column;
   font-size: 14px;
+  margin-top: 8px;
 }
 
 .ic-feedPost-comments-viewComments {
@@ -65,43 +65,43 @@
 }
 
 .ic-feedPost-comments-time {
-  font-size: 12px;
   color: grey;
+  font-size: 12px;
 }
 
 .ic-feedPost-comments-create {
+  align-items: center;
   border-top: 1px solid grey;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 25%;
+  justify-content: space-between;
   margin-top: 8px;
 }
 
 .ic-feedPost-comments-createInputSection {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
-  width: 90%;
   justify-content: flex-start;
+  width: 90%;
 }
 
 .ic-feedPost-comments-createInput {
-  width: 100%;
-  height: 100%;
   border: none;
-  outline: none;
   font-size: 14px;
-  padding: 0;
+  height: 100%;
   margin: 0px 0px 0px 8px;
+  outline: none;
+  padding: 0;
+  width: 100%;
 }
 
 .ic-feedPost-comments-createButton {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 146, 214, 0.493);
+  cursor: pointer;
   font-size: 14px;
   font-weight: 600;
-  border: none;
   outline: none;
-  background-color: transparent;
-  cursor: pointer;
-  color: rgba(0, 146, 214, 0.493);
 }

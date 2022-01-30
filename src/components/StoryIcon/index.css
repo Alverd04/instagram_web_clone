@@ -1,29 +1,29 @@
 .ic-storyIcon {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100%;
   justify-content: space-between;
   text-align: center;
-  height: 100%;
 }
 
 .ic-storyIcon-image {
-  width: 58px;
-  height: 58px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border-radius: 50%;
   background-color: rgb(211, 211, 211);
+  border-radius: 50%;
+  display: flex;
+  height: 58px;
+  justify-content: center;
   object-fit: contain;
+  width: 58px;
 }
 
 .ic-storyIcon-image img {
-  height: 54px !important;
-  width: 54px !important;
   border-radius: 50%;
   border: 3px solid white;
+  height: 54px !important;
   object-fit: cover;
+  width: 54px !important;
 }
 
 .ic-storyIcon-label {

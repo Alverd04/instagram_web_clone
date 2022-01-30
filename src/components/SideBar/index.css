@@ -1,8 +1,8 @@
 .ic-sideBar {
   height: 100%;
   margin: 16px 0px 16px;
-  top: 120px;
   position: fixed;
+  top: 120px;
 }
 
 .ic-sideBar-content {
@@ -10,20 +10,20 @@
 }
 
 .ic-sideBar-suggestions-header {
-  margin: 16px 0;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  color: grey;
+  display: flex;
   font-size: 14px;
   font-weight: bold;
-  color: grey;
+  justify-content: space-between;
+  margin: 16px 0;
   margin: 32px 0 16px;
 }
 
 .ic-sideBar-suggestions-header button {
-  font-weight: bold;
-  border: none;
   background: none;
+  border: none;
+  font-weight: bold;
 }
 
 .ic-sideBar-sugesstionsUser {
