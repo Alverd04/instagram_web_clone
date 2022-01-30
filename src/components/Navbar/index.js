@@ -103,31 +103,31 @@ export default function Navbar() {
                 <div className={`${BASE_CLASS}-profile-submenuItem`}>
                   <BsPerson size={16} />
                   <span className={`${BASE_CLASS}-profile-submenuItem-label`}>
-                    Perfil
+                    Profile
                   </span>
                 </div>
                 <div className={`${BASE_CLASS}-profile-submenuItem`}>
                   <BsBookmark size={16} />
                   <span className={`${BASE_CLASS}-profile-submenuItem-label`}>
-                    Guardados
+                    Saved
                   </span>
                 </div>
                 <div className={`${BASE_CLASS}-profile-submenuItem`}>
                   <RiSettings5Line size={16} />
                   <span className={`${BASE_CLASS}-profile-submenuItem-label`}>
                     {' '}
-                    Configuración
+                    Settings
                   </span>
                 </div>
                 <div className={`${BASE_CLASS}-profile-submenuItem`}>
                   <RiExchangeFundsLine size={16} />
                   <span className={`${BASE_CLASS}-profile-submenuItem-label`}>
-                    Cambiar de cuenta
+                    Change account
                   </span>
                 </div>
                 <div className={`${BASE_CLASS}-profile-submenuItem`}>
                   <span className={`${BASE_CLASS}-profile-submenuItem-label`}>
-                    Cerrar sesión
+                    Log out
                   </span>
                 </div>
               </div>
