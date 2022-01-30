@@ -25,7 +25,7 @@ export default function FeedPost() {
       </div>
       <div className={`${BASE_CLASS}-imageContainer`}>
         <img
-          src='https://resizer.elcomercio.es/resizer/resizer.php?imagen=/deliverty/demo/resources/jpg/7/7/1292405781677.jpg&nuevoancho=950&nuevoalto=570&copyright=conCopyright&encrypt=false'
+          src='https://images3.alphacoders.com/678/thumb-1920-678085.jpg'
           alt=''
         />
       </div>
