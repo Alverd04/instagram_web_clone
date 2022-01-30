@@ -40,7 +40,7 @@ export default function FeedPost() {
         </div>
         <div className={`${BASE_CLASS}-likes`}>
           <span>
-            Le gusta a <b>the_rock</b> y <b>41.912 personas más</b>
+            <b>the_rock</b> and <b>41.912 people</b> liked that
           </span>
         </div>
         <div className={`${BASE_CLASS}-comments`}>
@@ -48,9 +48,9 @@ export default function FeedPost() {
             <b>vancityreynolds</b> Snu snu
           </span>
           <span className={`${BASE_CLASS}-comments-viewComments`}>
-            ver los 3.512 comentarios
+            view 3.512 comments
           </span>
-          <span className={`${BASE_CLASS}-comments-time`}>HACE 4 MINUTOS</span>
+          <span className={`${BASE_CLASS}-comments-time`}>4 minutes ago</span>
         </div>
         <div className={`${BASE_CLASS}-comments-create`}>
           <div className={`${BASE_CLASS}-comments-createInputSection`}>
@@ -58,11 +58,11 @@ export default function FeedPost() {
             <input
               className={`${BASE_CLASS}-comments-createInput`}
               type='text'
-              placeholder='Añade un comentario...'
+              placeholder='Add a comment...'
             />
           </div>
           <button disabled className={`${BASE_CLASS}-comments-createButton`}>
-            Publicar
+            Publish
           </button>
         </div>
       </div>

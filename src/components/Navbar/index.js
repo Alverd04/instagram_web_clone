@@ -45,7 +45,7 @@ export default function Navbar() {
           </div>
         </Link>
         <div className={`${BASE_CLASS}-searchBar`}>
-          <SearchInput placeholder='Busca' />
+          <SearchInput placeholder='Search' />
         </div>
         <div className={`${BASE_CLASS}-options`}>
           <Link to='/'>
