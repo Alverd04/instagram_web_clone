@@ -21,7 +21,7 @@
 }
 
 .ic-storyPaging-slideTime {
-  animation: 9s slide forwards;
+  animation: 10s linear slide forwards;
   background-color: white;
 }
 

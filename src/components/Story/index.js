@@ -62,7 +62,7 @@ export default function Story({
     if (currentSlide < slides.length - 1) {
       const timer = setTimeout(() => {
         setCurrentSlide(currentSlide + 1)
-      }, 9000)
+      }, 10000)
 
       return () => clearTimeout(timer)
     }
